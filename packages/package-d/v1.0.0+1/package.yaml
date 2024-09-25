@@ -6,7 +6,7 @@ shortDescription:  Detects hardware features available on each node in a
 longDescription: "Detects hardware features available on each node in a
   Kubernetes cluster, and advertises those features using node labels. "
 defaultNamespace: default
-scope: Namespaced
+scope: package-d
 valueDefinitions:
   version:
     constraints: { }

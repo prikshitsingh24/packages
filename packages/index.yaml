@@ -104,7 +104,7 @@ packages:
   - iconUrl: https://cyclops-ui.com/img/logo.png
     latestVersion: v2.0.0+1
     name: package-d
-    scope: Namespaced
+    scope: package-d
     shortDescription: Detects hardware features available on each node in a
       Kubernetes cluster, and advertises those features using node labels.
 
