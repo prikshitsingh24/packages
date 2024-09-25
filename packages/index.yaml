@@ -88,6 +88,23 @@ packages:
     name: node-feature-discovery
     shortDescription: Detects hardware features available on each node in a
       Kubernetes cluster, and advertises those features using node labels.
+
+  - iconUrl: https://avatars.githubusercontent.com/u/13629408
+    latestVersion: v1.0.0
+    name: package-a
+    shortDescription: Detects hardware features available on each node in a
+      Kubernetes cluster, and advertises those features using node labels.
+  - iconUrl: https://avatars.githubusercontent.com/u/13629408
+    latestVersion: v1.0.0
+    name: package-b
+    shortDescription: Detects hardware features available on each node in a
+      Kubernetes cluster, and advertises those features using node labels.
+  - iconUrl: https://avatars.githubusercontent.com/u/13629408
+    latestVersion: v1.0.0
+    name: package-d
+    shortDescription: Detects hardware features available on each node in a
+      Kubernetes cluster, and advertises those features using node labels.
+
   - iconUrl: https://www.postgresql.org/media/img/about/press/elephant.png
     latestVersion: v16.4.0+1
     name: postgresql
