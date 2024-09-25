@@ -96,13 +96,13 @@ packages:
     shortDescription: Detects hardware features available on each node in a
       Kubernetes cluster, and advertises those features using node labels.
   - iconUrl: https://cyclops-ui.com/img/logo.png
-    latestVersion: v1.0.0+1
+    latestVersion: v2.0.0+1
     name: package-b
     scope: Namespaced
     shortDescription: Detects hardware features available on each node in a
       Kubernetes cluster, and advertises those features using node labels.
   - iconUrl: https://cyclops-ui.com/img/logo.png
-    latestVersion: v1.0.0+1
+    latestVersion: v2.0.0+1
     name: package-d
     shortDescription: Detects hardware features available on each node in a
       Kubernetes cluster, and advertises those features using node labels.
