@@ -1,0 +1,23 @@
+# yaml-language-server: $schema=https://glasskube.dev/schemas/v1/package-manifest.json
+name: package-b
+iconUrl: https://cyclops-ui.com/img/logo.png
+shortDescription: Package B
+longDescription: |
+  Package B depends on Package D version 2.x.x. It provides different services that leverage new features of Package D v2.x.x.
+defaultNamespace: default
+scope: Namespaced
+valueDefinitions:
+  dependencyVersion:
+    constraints: { }
+    defaultValue: 1.0.0
+    type: text
+    metadata:
+      label: Package D dependency version for Package B
+    targets:
+      - patch:
+          op: replace
+          path: /spec/template/spec/containers/0/env/DEPENDENCY_VERSION
+        resource:
+          apiGroup: apps/v1
+          kind: Deployment
+          name: package-b
