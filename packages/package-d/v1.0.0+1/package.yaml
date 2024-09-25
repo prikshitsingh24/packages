@@ -9,7 +9,7 @@ defaultNamespace: package-d
 valueDefinitions:
   version:
     constraints: { }
-    defaultValue: 1.0.0
+    defaultValue: ^1.0.0
     type: text
     metadata:
       label: Default version of Package D
