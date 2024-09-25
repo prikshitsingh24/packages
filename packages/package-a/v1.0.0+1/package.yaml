@@ -7,6 +7,9 @@ longDescription: |
   Package A depends on Package D version 1.x.x. It provides core functionality that interacts with services requiring Package D.
 defaultNamespace: default
 scope: Namespaced
+dependencies:
+  - name: package-d
+    version: ^1.0.0
 valueDefinitions:
   dependencyVersion:
     constraints: { }

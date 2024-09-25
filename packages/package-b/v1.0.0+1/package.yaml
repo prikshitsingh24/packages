@@ -7,6 +7,9 @@ longDescription: |
   Package B depends on Package D version 2.x.x. It provides different services that leverage new features of Package D v2.x.x.
 defaultNamespace: default
 scope: Namespaced
+dependencies:
+  - name: package-d
+    version: ^1.0.0
 valueDefinitions:
   dependencyVersion:
     constraints: { }
