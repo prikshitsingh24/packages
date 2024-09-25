@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=https://glasskube.dev/schemas/v1/package-manifest.json
 name: package-d
-iconUrl: https://avatars.githubusercontent.com/u/13629408
+iconUrl: https://cyclops-ui.com/img/logo.png
 shortDescription:  Detects hardware features available on each node in a
       Kubernetes cluster, and advertises those features using node labels.
 longDescription: "Detects hardware features available on each node in a
