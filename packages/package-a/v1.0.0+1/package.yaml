@@ -9,7 +9,7 @@ defaultNamespace: default
 scope: Namespaced
 dependencies:
   - name: package-d
-  - version: 1.x.x
+    version: 1.x.x
 valueDefinitions:
   dependencyVersion:
     constraints: { }
