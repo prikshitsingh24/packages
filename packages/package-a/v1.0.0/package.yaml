@@ -1,7 +1,8 @@
 # yaml-language-server: $schema=https://glasskube.dev/schemas/v1/package-manifest.json
 name: package-a
 iconUrl: https://cyclops-ui.com/img/logo.png
-shortDescription: Package A
+shortDescription: Detects hardware features available on each node in a
+      Kubernetes cluster, and advertises those features using node labels.
 longDescription: |
   Package A depends on Package D version 1.x.x. It provides core functionality that interacts with services requiring Package D.
 defaultNamespace: default

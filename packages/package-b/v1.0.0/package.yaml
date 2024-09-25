@@ -1,7 +1,8 @@
 # yaml-language-server: $schema=https://glasskube.dev/schemas/v1/package-manifest.json
 name: package-b
 iconUrl: https://cyclops-ui.com/img/logo.png
-shortDescription: Package B
+shortDescription: Detects hardware features available on each node in a
+      Kubernetes cluster, and advertises those features using node labels.
 longDescription: |
   Package B depends on Package D version 2.x.x. It provides different services that leverage new features of Package D v2.x.x.
 defaultNamespace: default
