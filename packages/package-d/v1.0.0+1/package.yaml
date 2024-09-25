@@ -1,2 +1,24 @@
+# yaml-language-server: $schema=https://glasskube.dev/schemas/v1/package-manifest.json
 name: package-d
-version: 1.0.0
+iconUrl: https://avatars.githubusercontent.com/u/13629408
+shortDescription:  Detects hardware features available on each node in a
+      Kubernetes cluster, and advertises those features using node labels.
+longDescription: "Detects hardware features available on each node in a
+  Kubernetes cluster, and advertises those features using node labels. "
+defaultNamespace: default
+scope: Namespaced
+valueDefinitions:
+  version:
+    constraints: { }
+    defaultValue: 1.0.0
+    type: text
+    metadata:
+      label: Default version of Package D
+    targets:
+      - patch:
+          op: replace
+          path: /spec/template/spec/containers/0/env/VERSION
+        resource:
+          apiGroup: apps/v1
+          kind: Deployment
+          name: package-d
