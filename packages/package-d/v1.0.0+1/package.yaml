@@ -1,23 +1,25 @@
 # yaml-language-server: $schema=https://glasskube.dev/schemas/v1/package-manifest.json
 name: package-d
-iconUrl: https://avatars.githubusercontent.com/u/13629408
-shortDescription:  Detects hardware features available on each node in a
+iconUrl: https://cyclops-ui.com/img/logo.png
+shortDescription: Detects hardware features available on each node in a
       Kubernetes cluster, and advertises those features using node labels.
-longDescription: "Detects hardware features available on each node in a
-  Kubernetes cluster, and advertises those features using node labels. "
-defaultNamespace: package-d
+longDescription: |
+  Package B depends on Package D version 2.x.x. It provides different services that leverage new features of Package D v2.x.x.
+defaultNamespace: default
+scope: Namespaced
 valueDefinitions:
-  version:
+  dependencyVersion:
     constraints: { }
     defaultValue: 1.0.0
     type: text
     metadata:
-      label: Default version of Package D
+      label: Package D dependency version for Package B
     targets:
       - patch:
           op: replace
-          path: /spec/template/spec/containers/0/env/VERSION
+          path: /spec/template/spec/containers/0/env/DEPENDENCY_VERSION
         resource:
           apiGroup: apps/v1
           kind: Deployment
           name: package-d
+
