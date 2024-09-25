@@ -5,8 +5,7 @@ shortDescription: Detects hardware features available on each node in a
       Kubernetes cluster, and advertises those features using node labels.
 longDescription: |
   Package B depends on Package D version 2.x.x. It provides different services that leverage new features of Package D v2.x.x.
-defaultNamespace: default
-scope: Namespaced
+defaultNamespace: package-d
 valueDefinitions:
   dependencyVersion:
     constraints: { }
