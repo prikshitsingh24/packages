@@ -102,6 +102,7 @@ packages:
   - iconUrl: https://avatars.githubusercontent.com/u/13629408
     latestVersion: v1.0.0+1
     name: package-d
+    scope: Namespaced
     shortDescription: Detects hardware features available on each node in a
       Kubernetes cluster, and advertises those features using node labels.
 
